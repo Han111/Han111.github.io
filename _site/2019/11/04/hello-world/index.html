@@ -11,16 +11,26 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Service Worker 101「GDG DevFest 2016 北京」 - Han的博客 | Han Blog">
+    <meta property="og:title" content="Hello World - Han的博客 | Han Blog">
     
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="关于生活 | Software Engineer，UX Designer ">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Hello World
+">
+    
+    <meta property="article:published_time" content="2019-11-04T00:00:00Z">
+    
+    
+    <meta property="article:author" content="Han">
+    
+    
+    <meta property="article:tag" content="随笔">
+    
     
     <meta property="og:image" content="http://localhost:4000/img/avatar-hux-ny.jpg">
-    <meta property="og:url" content="http://localhost:4000/2016/11/20/sw-101-gdgdf/">
+    <meta property="og:url" content="http://localhost:4000/2019/11/04/hello-world/">
     <meta property="og:site_name" content="Han的博客 | Han Blog">
     
-    <title>Service Worker 101「GDG DevFest 2016 北京」 - Han的博客 | Han Blog</title>
+    <title>Hello World - Han的博客 | Han Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -29,7 +39,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2016/11/20/sw-101-gdgdf/">
+    <link rel="canonical" href="http://localhost:4000/2019/11/04/hello-world/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -60,7 +70,7 @@
 
     <!-- Navigation -->
 
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
 
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -177,43 +187,33 @@
 
 
 
-
-
 <style type="text/css">
     header.intro-header{
-        height: 500px;
-        overflow: hidden;
+        position: relative;
+        background-image: url('/img/home-bg.jpg');
+        background: ;
     }
-    header.intro-header .container{
-        visibility: hidden; 
-    }
-    header iframe{
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
+
+    
 </style>
-<header class="intro-header" >
-    <iframe src="//huangxuan.me/sw-101-gdgdf/"></iframe>
-    <!-- keep for SEO -->
+
+<header class="intro-header style-text" >
+
+    <div class="header-mask"></div>
+    
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/archive/?tag=Slides" title="Slides">Slides</a>
-                        
-                        <a class="tag" href="/archive/?tag=Web" title="Web">Web</a>
-                        
-                        <a class="tag" href="/archive/?tag=PWA" title="PWA">PWA</a>
+                        <a class="tag" href="/archive/?tag=%E9%9A%8F%E7%AC%94" title="随笔">随笔</a>
                         
                     </div>
-                    <h1>Service Worker 101「GDG DevFest 2016 北京」</h1>
+                    <h1>Hello World</h1>
                     
-                    <h2 class="subheading">🎞  Slides:Service Worker 101, Working Offline and Instant Loading (GDG DevFest 2016 Beijing)</h2>
-                    <span class="meta">Posted by Hux
-                        on November 20, 2016</span>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">Posted by Han on November 4, 2019</span>
                 </div>
             </div>
         </div>
@@ -224,47 +224,22 @@
 
 
 
+
 <!-- Post Content -->
 <article>
     <div class="container">
         <div class="row">
 
-            <!-- Post Container -->
-            <div class="post-container
+    <!-- Post Container -->
+            <div class="
                 col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1 ">
+                col-md-10 col-md-offset-1
+                post-container">
 
-				<blockquote>
-  <p>下滑这里查看更多内容</p>
-</blockquote>
+                <!-- Multi-Lingual -->
+                
 
-<p>TLDR; It covers lots of cool stuff about Service Worker!</p>
-
-<h3 id="watching-fullscreen--"><a href="https://huangxuan.me/sw-101-gdgdf/">Watching Fullscreen → </a></h3>
-
-<div class="visible-md visible-lg">
-    <img src="//huangxuan.me/sw-101-gdgdf/attach/qrcode.png" width="350" />
-    <small class="img-hint">Scanning on mobile</small>
-</div>
-
-<h3 id="demo-code--"><a href="https://github.com/Huxpro/sw-101-gdgdf">Demo Code → </a></h3>
-
-<ul>
-  <li>Hello World of Service Worker</li>
-  <li>Make your own Offline Dinosaurs</li>
-  <li>Stale/Fastest while revalidate</li>
-</ul>
-
-<h3 id="notes">Notes</h3>
-
-<p>This slides is powered by <a href="http://yanshuo.io">Yanshuo.io (演说.io)</a>, a online software helping you create, store and share web slides.</p>
-
-<p>There are 2 ways that you can fork or contribute this project:</p>
-
-<ol>
-  <li><code class="highlighter-rouge">index.html</code> is the HTML source code exported from <a href="http://yanshuo.io">Yanshuo.io</a>, and many of its dependencis (js, css, fonts) are still linked to CDN of <a href="http://yanshuo.io">Yanshuo.io</a>. You can do any secondary development and host it by yourself.</li>
-  <li>Download the project file under <code class="highlighter-rouge">shuo/</code>, drag it into <a href="http://yanshuo.io">Yanshuo.io</a>, and you are ready to go. You can edit whatever you want, upload it to your account, and even share your distributions.</li>
-</ol>
+				<p>Hello World</p>
 
 
 
@@ -272,19 +247,12 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2016/10/20/pwa-qcon2016/" data-toggle="tooltip" data-placement="top" title="Progressive Web Apps，复兴序章「QCon 上海 2016」">
+                        <a href="/2019/09/13/peter-john-landin/" data-toggle="tooltip" data-placement="top" title="Peter John Landin">
                         Previous<br>
-                        <span>Progressive Web Apps，复兴序章「QCon 上海 2016」</span>
+                        <span>Peter John Landin</span>
                         </a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2017/01/09/wechat-miniapp-ux/" data-toggle="tooltip" data-placement="top" title="如何客观地评价「小程序」的体验?">
-                        Next<br>
-                        <span>如何客观地评价「小程序」的体验?</span>
-                        </a>
-                    </li>
                     
                 </ul>
                 <hr style="visibility: hidden;">
@@ -292,25 +260,30 @@
                 
                 <!-- disqus 评论框 start -->
                 <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread">
-
-                    </div>
+                    <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
                 <!-- disqus 评论框 end -->
                 
 
-            </div>
+                
+            </div>  
 
-            <!-- Sidebar Container -->
-            <div class="sidebar-container
+    <!-- Side Catalog Container -->
+        
+
+    <!-- Sidebar Container -->
+            <div class="
                 col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1 ">
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
                 <!-- Featured Tags -->
                 
 
 
 <section>
+    
+        <hr class="hidden-sm hidden-xs">
     
     <h5><a href="/archive/">FEATURED TAGS</a></h5>
     <div class="tags">
@@ -459,34 +432,15 @@
   
 </ul>
 
-
             </div>
         </div>
     </div>
 </article>
 
-<!-- resize header to fullscreen keynotes -->
-<script>
-    var $header = document.getElementsByTagName("header")[0];
-    function resize(){
-        /*
-         * leave 85px to both
-         * - told/imply users that there has more content below
-         * - let user can scroll in mobile device, seeing the keynote-view is unscrollable
-         */
-        $header.style.height = (window.innerHeight-85) + 'px';
-    }
-    document.addEventListener('DOMContentLoaded', function(){
-        resize();
-    })
-    window.addEventListener('load', function(){
-        resize();
-    })
-    window.addEventListener('resize', function(){
-        resize();
-    })
-    resize();
-</script>
+<!-- add support for mathjax by voleking-->
+
+
+
 
 
 
@@ -494,8 +448,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "hancats";
-    var disqus_identifier = "/2016/11/20/sw-101-gdgdf";
-    var disqus_url = "http://localhost:4000/2016/11/20/sw-101-gdgdf/";
+    var disqus_identifier = "/2019/11/04/hello-world";
+    var disqus_url = "http://localhost:4000/2019/11/04/hello-world/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -523,9 +477,9 @@
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
-          visible: 'always',
+          visible: 'hover',
           placement: 'right',
-          icon: '#'
+          // icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })

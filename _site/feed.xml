@@ -5,9 +5,23 @@
     <description>关于生活 | Software Engineer，UX Designer </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Nov 2019 19:35:32 +0800</pubDate>
-    <lastBuildDate>Mon, 04 Nov 2019 19:35:32 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2019 23:00:38 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2019 23:00:38 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;p&gt;Hello World&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 04 Nov 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/11/04/hello-world/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/11/04/hello-world/</guid>
+        
+        <category>随笔</category>
+        
+        
+      </item>
     
       <item>
         <title>Peter John Landin</title>
@@ -1610,48 +1624,6 @@ hypotheses -&amp;gt; bottom&lt;/p&gt;
         <pubDate>Fri, 15 Mar 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/03/15/sf-plf-15-norm-STLC/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/03/15/sf-plf-15-norm-STLC/</guid>
-        
-        <category>SF (软件基础)</category>
-        
-        <category>PLF (编程语言基础)</category>
-        
-        <category>Coq</category>
-        
-        <category>笔记</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>「SF-PLF」14 RecordSub</title>
-        <description>&lt;div class=&quot;language-coq highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;Inductive&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ty&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;(* record types *)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;RNil&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ty&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;RCons&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;→&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ty&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;→&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ty&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;→&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;we need typecon to identify record…&lt;/p&gt;
-
-&lt;p&gt;```coq
-Inductive tm : Type :=
-  | rproj …?  isn’t it as well?
-  (* record terms *)
-  | rnil : tm
-  | rcons : string → tm → tm → tm.
-``&lt;/p&gt;
-
-&lt;p&gt;as a list…&lt;/p&gt;
-
-&lt;p&gt;for Record, can compiler reorder the fields? (SML and OCaml)&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 14 Mar 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/03/14/sf-plf-14-record-sub/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/03/14/sf-plf-14-record-sub/</guid>
         
         <category>SF (软件基础)</category>
         
