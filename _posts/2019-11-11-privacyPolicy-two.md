@@ -5,7 +5,7 @@ subtitle: '隐私政策模板'
 author: "Han"
 header-style: text
 tags:
-  - others
+  - Others
 ---
 
 隐私政策
