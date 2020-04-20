@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your app uses the "prefs:root="审核被拒"
+title: "Your app uses the prefs:root= 审核被拒"
 subtitle: ''
 author: "Han"
 header-style: text
