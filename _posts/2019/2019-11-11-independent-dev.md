@@ -16,7 +16,7 @@ PingPong可以绕过银行，通过他们的一个虚拟美国银行户头来完
 
 干货福利
 
-通过这个链接:https://us.pingpongx.com/external/inviteReg.htm?inviteCode=IBbAj2114注册，可以领取 3000 刀的免费提现额度。如果你是刚开始的独立开发者，基本上够你用好几个月了。
+通过[这个链接](https://us.pingpongx.com/external/inviteReg.htm?inviteCode=IBbAj2114)注册，可以领取 3000 刀的免费提现额度。如果你是刚开始的独立开发者，基本上够你用好几个月了。
 
 
 
