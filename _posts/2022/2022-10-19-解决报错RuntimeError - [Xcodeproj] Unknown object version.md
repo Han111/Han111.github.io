@@ -8,8 +8,6 @@ tags:
   - iOS
 ---
 
-# 解决报错“RuntimeError - [Xcodeproj] Unknown object version.”
-
 1、报错RuntimeError - [Xcodeproj] Unknown object version.
 
 之前更新了一下Mac系统，然后今天在pod install时提示错误：
