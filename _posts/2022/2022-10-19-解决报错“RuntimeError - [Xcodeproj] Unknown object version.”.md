@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "如何浪费时间和金钱"
+title: "解决报错“RuntimeError - [Xcodeproj] Unknown object version.”"
 subtitle: ''
 author: "Han"
 header-style: text
