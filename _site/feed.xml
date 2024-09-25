@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Han Blog</title>
-    <description>关于生活 | Software Engineer，UX Designer </description>
+    <description>关于生活 | Software Engineer，UX Designer feedId:61681911724823552+userId:56942966165727232</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Mon, 04 Nov 2019 23:00:38 +0800</pubDate>
